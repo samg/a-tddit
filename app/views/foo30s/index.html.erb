@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Foo30s</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Foo1</th>
+      <th>Foo2</th>
+      <th>Foo3</th>
+      <th>Foo4</th>
+      <th>Foo5</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @foo30s.each do |foo30| %>
+      <tr>
+        <td><%= foo30.foo1 %></td>
+        <td><%= foo30.foo2 %></td>
+        <td><%= foo30.foo3 %></td>
+        <td><%= foo30.foo4 %></td>
+        <td><%= foo30.foo5 %></td>
+        <td><%= link_to 'Show', foo30 %></td>
+        <td><%= link_to 'Edit', edit_foo30_path(foo30) %></td>
+        <td><%= link_to 'Destroy', foo30, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Foo30', new_foo30_path %>

@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  foo1: MyString
+  foo2: 9.99
+  foo3: 1
+  foo4: false
+  foo5: MyText
+
+two:
+  foo1: MyString
+  foo2: 9.99
+  foo3: 1
+  foo4: false
+  foo5: MyText
