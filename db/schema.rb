@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_06_30_211519) do
+ActiveRecord::Schema.define(version: 202106302151691) do
 
   create_table "bar100s", force: :cascade do |t|
     t.string "foo1"
@@ -1003,6 +1003,1006 @@ ActiveRecord::Schema.define(version: 2021_06_30_211519) do
   end
 
   create_table "bar9s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz100s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz10s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz11s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz12s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz13s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz14s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz15s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz16s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz17s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz18s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz19s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz1s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz20s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz21s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz22s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz23s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz24s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz25s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz26s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz27s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz28s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz29s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz2s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz30s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz31s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz32s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz33s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz34s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz35s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz36s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz37s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz38s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz39s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz3s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz40s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz41s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz42s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz43s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz44s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz45s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz46s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz47s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz48s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz49s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz4s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz50s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz51s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz52s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz53s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz54s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz55s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz56s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz57s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz58s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz59s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz5s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz60s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz61s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz62s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz63s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz64s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz65s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz66s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz67s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz68s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz69s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz6s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz70s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz71s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz72s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz73s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz74s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz75s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz76s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz77s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz78s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz79s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz7s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz80s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz81s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz82s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz83s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz84s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz85s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz86s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz87s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz88s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz89s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz8s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz90s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz91s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz92s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz93s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz94s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz95s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz96s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz97s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz98s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz99s", force: :cascade do |t|
+    t.string "foo1"
+    t.decimal "foo2"
+    t.integer "foo3"
+    t.boolean "foo4"
+    t.text "foo5"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "baz9s", force: :cascade do |t|
     t.string "foo1"
     t.decimal "foo2"
     t.integer "foo3"
