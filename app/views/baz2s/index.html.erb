@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Baz2s</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Foo1</th>
+      <th>Foo2</th>
+      <th>Foo3</th>
+      <th>Foo4</th>
+      <th>Foo5</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @baz2s.each do |baz2| %>
+      <tr>
+        <td><%= baz2.foo1 %></td>
+        <td><%= baz2.foo2 %></td>
+        <td><%= baz2.foo3 %></td>
+        <td><%= baz2.foo4 %></td>
+        <td><%= baz2.foo5 %></td>
+        <td><%= link_to 'Show', baz2 %></td>
+        <td><%= link_to 'Edit', edit_baz2_path(baz2) %></td>
+        <td><%= link_to 'Destroy', baz2, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Baz2', new_baz2_path %>

@@ -1,0 +1,42 @@
+<%= form_with(model: baz62) do |form| %>
+  <% if baz62.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(baz62.errors.count, "error") %> prohibited this baz62 from being saved:</h2>
+
+      <ul>
+        <% baz62.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :foo1 %>
+    <%= form.text_field :foo1 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :foo2 %>
+    <%= form.text_field :foo2 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :foo3 %>
+    <%= form.number_field :foo3 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :foo4 %>
+    <%= form.check_box :foo4 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :foo5 %>
+    <%= form.text_area :foo5 %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
