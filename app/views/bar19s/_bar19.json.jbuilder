@@ -1,0 +1,2 @@
+json.extract! bar19, :id, :foo1, :foo2, :foo3, :foo4, :foo5, :created_at, :updated_at
+json.url bar19_url(bar19, format: :json)

@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Bar87s</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Foo1</th>
+      <th>Foo2</th>
+      <th>Foo3</th>
+      <th>Foo4</th>
+      <th>Foo5</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @bar87s.each do |bar87| %>
+      <tr>
+        <td><%= bar87.foo1 %></td>
+        <td><%= bar87.foo2 %></td>
+        <td><%= bar87.foo3 %></td>
+        <td><%= bar87.foo4 %></td>
+        <td><%= bar87.foo5 %></td>
+        <td><%= link_to 'Show', bar87 %></td>
+        <td><%= link_to 'Edit', edit_bar87_path(bar87) %></td>
+        <td><%= link_to 'Destroy', bar87, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Bar87', new_bar87_path %>

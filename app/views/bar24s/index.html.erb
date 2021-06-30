@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Bar24s</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Foo1</th>
+      <th>Foo2</th>
+      <th>Foo3</th>
+      <th>Foo4</th>
+      <th>Foo5</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @bar24s.each do |bar24| %>
+      <tr>
+        <td><%= bar24.foo1 %></td>
+        <td><%= bar24.foo2 %></td>
+        <td><%= bar24.foo3 %></td>
+        <td><%= bar24.foo4 %></td>
+        <td><%= bar24.foo5 %></td>
+        <td><%= link_to 'Show', bar24 %></td>
+        <td><%= link_to 'Edit', edit_bar24_path(bar24) %></td>
+        <td><%= link_to 'Destroy', bar24, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Bar24', new_bar24_path %>
